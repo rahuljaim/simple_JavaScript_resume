@@ -1,0 +1,112 @@
+* {
+  margin: 0 auto;
+  padding: 0px;
+}
+aside div:not(:first-child) {
+  margin-top: 10px;
+  margin-left: 7px;
+  padding-bottom: 5px;
+}
+div.main div:not(:first-child) {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.container {
+  width: 75%;
+  box-shadow: 2px 2px lightcyan;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+aside {
+  width: 295px;
+  /* border: 1px solid gray; */
+  background-color: #00a9ff;
+  color: white;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.main {
+  width: 60%;
+  /* border: 1px solid gray; */
+  color: gray;
+  padding-left: 5px;
+  /* padding-right:10px; */
+}
+hr {
+  border-color: rgb(9, 198, 231);
+}
+.proimg,
+.proimg img {
+  width: 100%;
+}
+.area_of_expert {
+    display: inline-flex;
+    /* flex-direction: row; */
+    align-items: baseline;
+    /* justify-content: left; */
+    /* text-align: center; */
+    padding-left: 10px;
+}
+.specialization {
+  width: 44px;
+  padding-right: 3px;
+}
+
+.group {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.main {
+  margin: 0px !important;
+}
+.aboutus {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.company-year,
+.education-year {
+  padding-top: 0px;
+  padding-bottom: 17px;
+}
+article,
+p {
+  font-size: 18px;
+}
+div.workgroup::before,
+div.edugroup::before {
+  position: relative;
+  left: -25px;
+  top: 20px;
+  content: "O";
+  font-family: sans-serif;
+  color: #00a9ff;
+  font-weight: bolder;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  width: 80px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.group > i {
+    margin-right: 13px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 27px;
+    line-height: 1.8;
+    width: 27px;
+    color: #00a9ff;
+    background: white;
+}
