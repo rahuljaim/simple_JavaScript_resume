@@ -30,8 +30,8 @@ aside {
   /* border: 1px solid gray; */
   background-color: #00a9ff;
   color: white;
-  /* flex-shrink: 0; */
-  flex:auto;
+  flex-shrink: 0;
+  /* flex:auto; */
   flex-direction: column;
   margin-left: 0px;
 }
@@ -39,7 +39,7 @@ aside {
   width: 60%;
   /* border: 1px solid gray; */
   color: gray;
-  padding-left: 5px;
+  /* padding-left: 5px; */
   /* padding-right:10px; */
 }
 hr {
