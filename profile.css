@@ -26,12 +26,12 @@ div.main div:not(:first-child) {
   margin-bottom: 20px;
 }
 aside {
-  width: 35%;
+  width: 295px;
   /* border: 1px solid gray; */
   background-color: #00a9ff;
   color: white;
   flex-shrink: 0;
-  /* flex:auto; */
+  flex:auto;
   flex-direction: column;
   margin-left: 0px;
 }
