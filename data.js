@@ -4,7 +4,7 @@ export const asideProfile =
             "section-title": "Stephen Colbert",
             "sub-title": "Designer",
             "contents": [{
-                "data": "21 sstreet texas",
+                "data": "21 sstreet texas, USA",
                 "icon": "fa fa-address-card"
             },
             {
